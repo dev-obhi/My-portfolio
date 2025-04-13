@@ -1,0 +1,1288 @@
+
+/*=========   COMMON CSS START  ======= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*=========   COMMON CSS END  ======= */
+
+
+/*=========   HEADER CSS START  ======= */
+
+.header{
+    background-color: rgb(24, 11, 36);
+    height: 80px;
+    width: 100%;
+    z-index: 10;
+    margin: 0 auto;
+    position: fixed; 
+}
+
+.nav{
+    background-color: rgb(24, 11, 36);
+    position: relative;
+}
+
+.nav::after{
+    content: "";
+    position: absolute;
+    width: 1440px;
+    top: 80px;
+    left: 0px;
+    height: 1px;
+    background-color: rgb(240, 22, 174);
+}
+
+.list{
+    display: flex;
+    column-gap: 100px;
+    padding-right: 20px;
+    margin-top: 25px; 
+}
+
+.logo{
+    color: rgb(240, 22, 174);
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;    
+}
+
+ #menu-icon{
+    font-size: 50px;
+    color: #fff;
+   display: none;  
+}
+
+.list-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+}
+
+.header .nav .list a:hover,
+.header .nav .list a.active{
+    
+    color:rgb(240, 22, 174); 
+}
+
+
+
+
+/*=========   HEADER CSS END  ======= */
+
+
+/*=========   BANNER CSS START  ======= */
+
+
+
+.banner{
+    background-color: rgb(24, 11, 36);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.bnr-wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+     width: 100%;
+}
+
+.bnr-photo img{
+   border-radius: 50px;
+    width: 400px;
+    height: 600px;   
+}
+
+.bnr-text{
+    padding-top: 50px;
+}
+
+.bnr-text h5{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #fff; 
+}
+
+.bnr-text h1{
+    font-size: 60px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.bnr-text h3{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.bnr-text span{
+    font-size: 45px;
+    color:rgb(240, 22, 174);
+}
+
+.bnr-text p{
+    color: #e9e8e8;
+    width: 530px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.icon{
+    color: #fff;
+    padding-top: 30px;
+   display: flex;
+   column-gap: 30px;
+   font-size: 30px;
+   
+   
+}
+.icon .one{
+    transition: all linear 0.4s;
+
+}
+.icon .one:hover{
+    color: rgb(240, 22, 174);
+
+}
+
+.icon .two{
+    transition: all linear 0.4s;
+
+}
+.icon .two:hover{
+    color: rgb(240, 22, 174);
+
+}
+
+.icon .three{
+    transition: all linear 0.4s;
+
+}
+.icon .three:hover{
+    color: rgb(240, 22, 174);
+
+}
+.icon .four{
+    transition: all linear 0.4s;
+
+}
+.icon .four:hover{
+    color: rgb(240, 22, 174);
+
+}
+
+.bnr-btn {
+    margin-top: 50px;
+    text-align: center;
+    width: 300px;
+    border: 2px solid rgb(240, 22, 174);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 30px;
+    background-color: rgb(240, 22, 174);
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bnr-btn:hover{
+    background-color: rgb(24, 11, 36);
+    color: rgb(240, 22, 174);
+}
+
+
+/*=========   BANNER CSS END  ======= */
+
+/*=========   ABOUT CSS START  ======= */
+
+
+
+
+.about{
+    background-color: rgb(11, 11, 36);
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.about h3{
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.about .ab-title h3{
+    text-align: center;
+    
+}
+
+.about h3 span{
+    color:rgb(240, 22, 174);
+
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-wrapper .left-part img{
+    width: 550px;
+    height: 450px;
+    margin-top: 100px;
+}
+
+.about-wrapper .right-part h3{
+    padding-top: 70px;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    width: 700px;
+}
+
+.about-wrapper .right-part h3 span{
+    color:rgb(240, 22, 174); 
+}
+
+.about-wrapper .right-part p{
+    color: #e9e8e8;
+    width: 630px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;  
+}
+
+.ex h4{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    color:rgb(240, 22, 174);
+}
+
+.ex h5{
+    font-size: 18px;
+    color:#fff;
+    width:90px;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-wrapper .right-part .wrap{
+    padding-top: 70px;
+    display: flex;
+    column-gap: 70px;
+}
+
+.skill{
+    background-color: rgb(24, 11, 36);
+    padding-bottom: 120px;
+    padding-top: 150px;
+
+ }
+
+ li{
+    list-style-type: none;
+    padding-bottom: 30px;
+  
+ }
+
+ .sk-title h2{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding-bottom: 140px;
+    text-transform: uppercase;
+ }
+
+ .sk-title h2 span{
+    color:rgb(240, 22, 174); 
+ }
+
+ .bar-wrap{
+    display: flex;
+    padding-bottom: 30px;
+    color: #fff;
+
+ }
+
+ .icons{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+ }
+
+ .icons h3{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+ }
+
+ .icons i{
+    font-size: 30px;
+ }
+
+.stick-1 .bar{
+    background:#7c7b7b;
+    width: 800px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transform: all 0.03s cubic-bezier(.25.8.25.1);
+    margin-left: 70px;
+    
+ }
+
+ .stick-2 .bar{
+    background:#7c7b7b;
+    width: 800px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transform: all 0.03s cubic-bezier(.25.8.25.1);
+    margin-left: 70px;
+    
+ }
+
+ .stick-3 .bar{
+    background:#7c7b7b;
+    width: 800px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transform: all 0.03s cubic-bezier(.25.8.25.1);
+    margin-left: 70px;
+    
+ }
+
+ .stick-4 .bar{
+    background:#7c7b7b;
+    width: 800px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transform: all 0.03s cubic-bezier(.25.8.25.1);
+    margin-left: 70px;
+    
+ }
+
+ .stick-5 .bar{
+    background:#7c7b7b;
+    width: 800px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transform: all 0.03s cubic-bezier(.25.8.25.1);
+    margin-left: 70px;
+    
+ }
+ 
+ @keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+    
+ }
+
+ @keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+ }
+ @keyframes boot {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+ }
+ @keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+ }
+
+ @keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+ }
+
+ .stick-1 .bar span {
+    height: 20px;
+    float: left;
+    background:rgb(240, 22, 174); ; 
+ }
+ 
+ .stick-2 .bar span{
+    height: 20px;
+    float: left;
+    background:rgb(240, 22, 174); ; 
+ }
+
+ .stick-3 .bar span{
+    height: 20px;
+    float: left;
+    background:rgb(240, 22, 174); ; 
+ }
+
+ .stick-4 .bar span{
+    height: 20px;
+    float: left;
+    background:rgb(240, 22, 174); ;  
+ }
+
+ .stick-5 .bar span{
+    height: 20px;
+    float: left;
+    background:rgb(240, 22, 174); ;  
+ }
+
+ .stick-1 .html{
+    width: 90%;
+    animation: html 3s;
+ }
+
+ .stick-2 .css{
+    width: 70%;
+    animation: css 3s; 
+ }
+
+ .stick-3 .boot{
+    width: 65%;
+    animation: boot 3s; 
+ }
+
+ .stick-4 .java{
+    width: 60%;
+    animation: java 3s;
+ }
+
+ .stick-5 .react{
+    width: 80%;
+    animation: react 3s; 
+ }
+
+ .stick-1{
+    padding-left: 150px;
+    padding-top: 10px;
+ }
+ 
+ .stick-2{
+    padding-left: 170px;
+    padding-top: 10px;
+
+ }
+
+ .stick-3{
+    padding-left: 67px;
+    padding-top: 10px;
+
+ }
+
+ .stick-4{
+    padding-left: 65px;
+    padding-top: 10px;
+ }
+
+ .stick-5{
+    padding-left: 138px;
+    padding-top: 10px;
+ }
+
+ .persent{
+    padding-left: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+ }
+ 
+
+
+
+ /*=========   ABOUT CSS END  ======= */
+
+ /*=========   PROJECT CSS START  ======= */
+
+
+
+
+ .project{
+    background-color: #0B0B24;
+    padding-top: 150px;
+    padding-bottom: 150px;  
+ }
+
+ .pro-title h2{
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+
+ }
+
+ .pro-title h2 span{
+    color:rgb(240, 22, 174); 
+ }
+
+.project .top-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-wrap .left-side h3{
+    font-size: 50px;
+    color:rgb(240, 22, 174); 
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+.top-wrap .left-side p{
+    width: 630px;
+    color: #e9e8e8;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+/* .top-wrap .right-side img{
+    width: 650px;
+    height: 400px;
+    padding-top: 20px;
+} */
+
+
+.top-wrap .right-side{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgb(240, 22, 174);
+    overflow: hidden;
+    display: flex;
+}
+
+.top-wrap .right-side img{
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0.7;
+}
+
+.right-side:hover img{
+    transform: scale(1.1);
+}
+
+.right-side .layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgb(240, 22, 174));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.right-side:hover .layer{
+    transform: translateY(0);
+}
+
+.right-side .layer h4{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.right-side .layer p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+
+.gallary{
+    width: 100%;
+}
+
+.gallary-content{
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1400px;
+    position: relative;
+}
+
+.gallary-item{
+    height: 220px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 350px;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+}
+
+.gallary-item-1{
+    left: 15%;
+    opacity: .4;
+    transform: translateX(-50%);
+}
+
+.gallary-item-2, .gallary-item-4{
+    height: 290px;
+    opacity: 0.8;
+    width: 410px;
+    z-index: 1;
+}
+
+.gallary-item-2{
+    left: 30%;
+    transform: translateX(-50%);
+
+}
+
+.gallary-item-3{
+    box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
+    height: 400px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 650px;
+    z-index: 2;
+
+}
+
+.gallary-item-4{
+    left: 70%;
+    transform: translateX(-50%);
+
+}
+
+.gallary-item-5{
+    left: 85%;
+    opacity: .4;
+    transform: translateX(-50%);
+}
+
+
+.gallary-control{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    height: 100px;
+}
+
+.gallary-control button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 50px;
+    padding: 0 12px;
+    text-transform: capitalize;
+
+}
+
+.gallary-control-button:focus{
+    outline: none;
+}
+
+.gallary-control-previous{
+    position: relative;
+    color: #fff;
+}
+
+.gallary-control-previous::before{
+    border: solid rgb(240, 22, 174);
+    border-width: 0 5px 5px 0;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    left: -30px;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    transform: rotate(135deg) translateY(-50%);
+    transition: left 0.15s ease-in-out;
+    width: 5px;
+}
+
+.gallary-control-previous:hover::before{
+    left: -40px;
+}
+
+.gallary-control-next{
+    position: relative;
+    color: #fff;
+   
+}
+
+.gallary-control-next::before{
+    border: solid rgb(240, 22, 174);
+    border-width: 0 5px 5px 0;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    padding: 10px;
+    position: absolute;
+    right: -30px;
+    top: 45%;
+    transform: rotate(-45deg) translateY(-50%);
+    transition: right 0.15s ease-in-out;
+    width: 5px;
+   
+}
+
+.gallary-control-next:hover:before{
+    right: -40px;
+  
+}
+
+.gallary-nav{
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.gallary-nav li{
+    background: #ccc;
+    border-radius: 50%;
+    height: 10px;
+    margin: 0 16px;
+    width: 10px;
+}
+
+.gallary-nav li.gallary-item-selected{
+    background: #555;
+    
+}
+
+
+
+ /*=========   PROJECT CSS END  ======= */
+
+  /*=========   FOOTER CSS START  ======= */
+
+
+
+
+
+
+
+#footer{
+   padding-top: 150px;
+   padding-bottom: 150px;
+    background-color: #180B24;
+}
+
+#footer .foot-title h2{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+}
+
+#footer h2 span{
+    color:rgb(240, 22, 174); 
+}
+
+#footer .top input{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 71);
+    padding: 20px 250px 20px 20px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+#footer .top{
+   text-align: center;
+   padding-top: 20px;
+}
+
+#footer .top input::placeholder{
+    color: #fff;
+    font-size: 20px;
+}
+
+#footer .bottom{
+    padding-left: 270px;
+  
+}
+
+#footer .bottom input{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 71);
+    padding: 20px 705px 200px 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+#footer .bottom input::placeholder{
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.footer-btn {
+    margin-top: 100px;
+    text-align: center;
+    width: 300px;
+    border: 2px solid rgb(240, 22, 174);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 30px;
+    background-color: rgb(240, 22, 174);
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0 auto;
+    
+}
+
+.footer-btn:hover{
+    background-color: rgb(24, 11, 36);
+    color: rgb(240, 22, 174);
+}
+
+  /*=========   FOOTER CSS END  ======= */
+
+
+  /*  ========== responsive css start ======== */
+
+
+  @media (max-width: 1440px) {
+    html{
+        font-size: 55%;
+    }
+
+  }
+  @media (max-width: 991px) {
+    .header{
+       padding: 2rem 3%;
+    }
+    section {
+        padding: 10rem 3%;
+    }
+    .banner {
+        padding: 7rem ;
+    }
+    .about{
+        padding: 7rem;
+       
+    }
+    .skill{
+        padding: 7rem 3%;
+        
+    }
+    .project{
+        padding: 7rem;
+    }
+    .footer{
+        padding: 2rem 3%;
+    }
+
+  }
+
+  @media(max-width: 768px){
+  
+     .header .list-wrapper{
+        flex-direction: column;
+        padding-right: 900px;
+     }
+     .header{
+        height: 140px;
+     }
+     .logo{
+        padding-bottom: 1px;
+        padding-top: 0px;  
+        padding-left: 20px;   
+     }
+     .list{
+        display: flex;
+        column-gap: 50px;
+        padding-left: 25px;
+     }
+     .list a{
+        padding-bottom: 20px;
+     }
+     .nav::after{
+        content: "";
+        position: absolute;
+        width: 1440px;
+        top: 120px;
+        left: -17px;
+        height: 1px;
+        background-color: rgb(240, 22, 174);
+    }
+    .banner{
+        flex-direction: column;
+        padding-bottom: 150px;
+    }
+    .bnr-text h5 , .bnr-text h3 {
+        font-size: 2.6rem;
+    }
+    .bnr-text h3 span{
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .bnr-text h1{
+        font-size: 5rem;
+    }
+    .bnr-photo img{
+        width: 400px;
+        height: 600px;
+        display: block;
+    }
+    .bnr-wrapper{
+        flex-direction: column-reverse;
+    }
+    .about{
+        padding-bottom: 150px;
+        padding-top: 160px;
+    }
+    .about-wrapper{
+        flex-direction: column;
+    }
+    .about .ab-title h3{
+        font-size: 5rem;
+        text-align: start;
+        padding-left: 130px;
+    }
+    .about .left-part img{
+        width: 500px;
+        height: 350px;
+    }
+    .about .right-part h3{
+        font-size: 35px;
+        width: 500px;
+    }
+    .about .right-part p{
+        width: 550px;
+    }
+    .skill .sk-title h2{
+        font-size: 5rem;
+        text-align: start;
+        padding-left: 175px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .skill{
+        flex-direction: column;
+        padding-top: 160px;
+        padding-bottom: 150px;
+    }
+    .icons{
+        column-gap: 0px;
+    }
+    .icons h3{
+        flex-direction: column;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .stick-1 .bar{
+        flex-direction: column;
+        width: 270px;
+    }
+    .stick-1{
+        padding-left:62px;
+    }
+    .stick-2 .bar{
+        flex-direction: column;
+        width: 270px;
+     }
+     .stick-2{
+         padding-left:72px;
+     }
+
+     .stick-3 .bar{
+        flex-direction: column;
+        width: 270px;
+     }
+     .stick-3{
+         padding-left:0px;
+     }
+     .stick-4 .bar{
+        flex-direction: column;
+        width: 270px;
+     }
+     .stick-4{
+        padding-left:0px;
+     }
+     .stick-5 .bar{
+        flex-direction: column;
+        width: 270px;
+     }
+     .stick-5{
+        padding-left:45px;
+     }
+     .persent{
+        padding-left: 45px;
+        padding-top: 8px;
+    }
+    .project{
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+    .pro-title h2{
+        font-size: 5rem;
+        padding-left: 100px;
+        text-align: start;
+        padding-bottom: 60px;
+
+    }
+    .top-wrap{
+        flex-direction: column;
+    }
+   .top-wrap .left-side h3{
+        font-size: 45px;  
+    }
+    .top-wrap .left-side p{
+        width: 550px;
+        padding-top: 30px;
+    }
+    .top-wrap .right-side img{
+        width: 480px;
+        height: 350px;
+
+    }
+    .bnr-btn{
+        margin-bottom: 90px;
+    }
+    .top-wrap .right-side{
+        width: 500px;
+        position: relative;
+        border-radius: 2rem;
+        box-shadow: 0 0 1rem rgb(240, 22, 174);
+        overflow: hidden;
+        display: flex;
+    }
+    .top-wrap .right-side img{
+        width: 100%;
+        transition: .5s ease;
+        opacity: 0.7;
+    }
+
+    .right-side:hover img{
+        transform: scale(1.1);
+    }
+
+    .right-side .layer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.1),rgb(240, 22, 174));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 4rem;
+        transform: translateY(100%);
+        transition: .5s ease;
+    }
+    .right-side:hover .layer{
+        transform: translateY(0);
+    }
+    .right-side .layer h4{
+        font-size: 35px;
+        font-family: "Poppins", sans-serif;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .right-side .layer p{
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    
+    }
+    .body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-right: 950px;
+        
+    }
+
+    .gallary-content{
+        align-items: center;
+        display: flex;
+        height: 400px;
+        margin: 0 auto;
+        max-width: 600px;
+        position: relative;
+    }
+    .gallary-item-1{
+        left: 20%;
+        width: 150px;
+        height: 100px;
+        opacity: .4;
+        transform: translateX(-50%);
+    }
+    .gallary-item-2, .gallary-item-4{
+        height: 150px;
+        opacity: 0.8;
+        width: 200px;
+        z-index: 1;
+    }
+    .gallary-item-2{
+        left: 30%;
+        transform: translateX(-50%);
+    
+    }
+    .gallary-item-3{
+        box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
+        height: 200px;
+        opacity: 1;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        z-index: 2;
+    }
+    .gallary-item-4{
+        left: 70%;
+        transform: translateX(-50%);
+    }
+    .gallary-item-5{
+        left: 80%;
+        opacity: .4;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 100px;
+    }
+    .gallary-control{
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 50px 0px;
+        height: 100px;
+    }
+    #footer{
+    padding-top: 120px;
+    }
+
+    #footer .foot-title h2{
+        font-size: 5rem;
+        text-align: left;
+        padding-left: 135px;
+        padding-top: 30px;
+    
+    }
+    #footer .top input{
+        padding: 10px 90px 10px 10px;
+       
+       
+    }
+    #footer .top {
+        text-align: left;
+        padding-left: 10px;
+    }
+    #footer .bottom input{
+        padding: 20px 350px 100px 20px;
+        margin-right: 900px;
+        margin-left: 1px;
+    }
+    #footer .bottom{
+        padding-left: 18px;
+    }
+    .footer-btn {
+         margin-left: 130px;
+     }
+
+ 
+  }
+
+ 
+
+
+  /*  ========== responsive css end ======== */
