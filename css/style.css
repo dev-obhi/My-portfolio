@@ -73,7 +73,7 @@ a{
 .list-wrapper{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .list a{
@@ -234,18 +234,17 @@ a{
     padding-top: 150px;
 }
 
-.about h3{
-    font-size: 60px;
-    font-family: "Poppins", sans-serif;
-    color: #fff;
-}
+
 
 .about .ab-title h3{
     text-align: center;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
     
 }
 
-.about h3 span{
+.about .ab-title h3 span{
     color:rgb(240, 22, 174);
 
 }
@@ -936,6 +935,452 @@ a{
   /*  ========== responsive css start ======== */
 
 
+
+@media (max-width:768px) and (min-width:300px){
+
+
+
+.list-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px  
+    }
+    
+.nav{
+    width: 412px;
+    height: 140px;
+}
+
+.nav::after {
+    content: "";
+    position: absolute;
+    width: 412px;
+    top: 140px;
+    left: 0px;
+    height: 1px;
+    background-color: rgb(240, 22, 174);
+}
+
+
+
+.logo {
+    color: rgb(240, 22, 174);
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 120px;
+    
+}
+
+.list {
+    display: flex;
+   
+    column-gap: 30px;
+    padding-right: 20px;
+    margin-top: 25px;
+    width: 500px;
+    padding-left: 20px;
+   
+}
+
+.list a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+}
+
+.container {
+    width: 370px;
+    overflow: hidden;
+     
+}
+
+
+.banner {
+    background-color: rgb(24, 11, 36);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.bnr-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    
+}
+
+.bnr-text h5 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.bnr-text h1 {
+    font-size: 40px;
+    
+}
+
+.bnr-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.bnr-text span {
+    font-size: 23px;
+    color: rgb(240, 22, 174);
+}
+
+.bnr-text p {
+    color: #e9e8e8;
+    width: 350px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.bnr-photo img{
+    width: 410px;
+    height: 550px;
+    display: block;
+    
+}
+
+ .about {
+    background-color: rgb(11, 11, 36);
+    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-left: 20px;
+} 
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+ .about-wrapper .left-part img {
+    width: 320px;
+    height: 240px;
+    margin-top: 100px;
+} 
+
+.about-wrapper .right-part h3 {
+   font-size: 25px;
+   width: 380px;
+} 
+ .about-wrapper .right-part p {
+    color: #e9e8e8;
+    width: 340px;
+    font-size: 14px;
+  
+} 
+ .about-wrapper .right-part .wrap {
+   
+    display: flex;
+    row-gap: 40px;
+    flex-direction: column-reverse;
+    column-gap: 70px;
+    padding-left: 110px;
+} 
+
+.about .ab-title h3 {
+    
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding-left: 100px;
+    text-align: start;
+} 
+
+.sk-title h2 {
+    
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding-left: 130px;
+    text-align: start;
+} 
+.bar-wrap {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.persent {
+    padding-left: 1px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.stick-1 {
+    padding-left: 1px;
+    padding-top: 20px;
+}
+.stick-2 {
+    padding-left: 1px;
+    padding-top: 20px;
+}
+.stick-3 {
+    padding-left: 1px;
+    padding-top: 20px;
+}
+.stick-4 {
+    padding-left: 1px;
+    padding-top: 20px;
+}
+.stick-5 {
+    padding-left: 1px;
+    padding-top: 20px;
+}
+
+.stick-1 .bar {
+    background: #7c7b7b;
+    width: 370px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 0px;
+}
+.stick-2 .bar {
+    background: #7c7b7b;
+    width: 370px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 0px;
+}
+.stick-3 .bar {
+    background: #7c7b7b;
+    width: 370px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 0px;
+}
+.stick-4 .bar {
+    background: #7c7b7b;
+    width: 370px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 0px;
+}
+.stick-5 .bar {
+    background: #7c7b7b;
+    width: 370px;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 0px;
+}
+
+.icons {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pro-title h2  {
+    
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding-left: 100px;
+    text-align: start;
+    padding-top: 1px;
+} 
+
+
+.project .top-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-wrap .left-side h3 {
+    font-size: 30px;
+    color: rgb(240, 22, 174);
+    font-weight: 700;
+  
+}
+
+.top-wrap .left-side p {
+    width: 360px;
+    color: #e9e8e8;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    
+}
+
+.bnr-btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 200px;
+    border: 2px solid rgb(240, 22, 174);
+    font-size: 15px;
+    padding: 8px 20px;
+   
+}
+
+#footer .foot-title h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+}
+
+#footer .top input {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 71);
+    padding: 10px 150px 10px 10px;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#footer .bottom input {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 71);
+    padding: 10px 135px 99px 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#footer .bottom {
+    padding-left: 10px;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+.gallary-content{
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+}
+
+.gallary-item-1{
+    left: 20%;
+    width: 150px;
+    height: 100px;
+    opacity: .4;
+    transform: translateX(-50%);
+}
+.gallary-item-2, .gallary-item-4{
+    height: 150px;
+    opacity: 0.8;
+    width: 200px;
+    z-index: 1;
+}
+.gallary-item-2{
+    left: 30%;
+    transform: translateX(-50%);
+
+}
+.gallary-item-3{
+    box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
+    height: 200px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    z-index: 2;
+}
+.gallary-item-4{
+    left: 70%;
+    transform: translateX(-50%);
+}
+.gallary-item-5{
+    left: 80%;
+    opacity: .4;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 100px;
+}
+
+.gallary-control {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    height: 100px;
+    
+}
+
+.gallary-content {
+    align-items: center;
+    display: flex;
+    height: 300px;
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+}
+
+.gallary-control-previous:hover::before {
+    left: -30px;
+}
+
+.gallary-control-next:hover:before {
+    right: -30px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
   @media (max-width: 1440px) {
     html{
         font-size: 55%;
@@ -977,6 +1422,8 @@ a{
      }
      .header{
         height: 140px;
+        position: fixed; 
+        
      }
      .logo{
         padding-bottom: 1px;
@@ -1012,7 +1459,7 @@ a{
         padding-bottom: 10px;
     }
     .bnr-text h1{
-        font-size: 5rem;
+        font-size: 2rem;
     }
     .bnr-photo img{
         width: 400px;
@@ -1280,9 +1727,9 @@ a{
      }
 
  
-  }
+  } */
 
- 
+
 
 
   /*  ========== responsive css end ======== */
