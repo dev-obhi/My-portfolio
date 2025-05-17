@@ -82,7 +82,7 @@ ScrollReveal({
 
 ScrollReveal().reveal('.bnr-text,.left-part img,.icons,.left-side', { origin: 'left' });
 ScrollReveal().reveal('.top ,.bottom', { origin: 'buttom' });
-ScrollReveal().reveal(' .sk-title, .pro-title,.foot-title', { origin: 'top' });
+ScrollReveal().reveal('.ab-title, .sk-title, .pro-title,.foot-title', { origin: 'top' });
 ScrollReveal().reveal('.bnr-photo,.right-part,.persent,.right-side,about-wrapper', { origin: 'right' });
 
 
